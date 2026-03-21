@@ -1,0 +1,36 @@
+.menuExternalLink {
+  align-items: center;
+}
+
+.menuLink {
+  justify-content: space-between;
+}
+
+.badge {
+  background-color: var(--ifm-color-primary-lighter);
+  margin-left: 2px;
+  padding: 4px;
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+.badge2 {
+  font-style: italic;
+}
+
+.linux {
+  background: coral;
+}
+
+.mac {
+  background: grey;
+}
+
+.windows {
+  background: dodgerblue;
+}
+
+.deprecated {
+  background: tomato;
+}
