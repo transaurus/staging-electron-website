@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelectronjs=self.webpackChunkelectronjs||[]).push([["97799"],{39976:function(e){e.exports=JSON.parse('{"name":"electron-governance-plugin","id":"default"}')}}]);

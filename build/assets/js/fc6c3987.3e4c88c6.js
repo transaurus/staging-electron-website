@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelectronjs=self.webpackChunkelectronjs||[]).push([["14833"],{51883:function(e){e.exports=JSON.parse('{"name":"apps-plugin","id":"default"}')}}]);

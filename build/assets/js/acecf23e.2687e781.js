@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkelectronjs=self.webpackChunkelectronjs||[]).push([["93220"],{94326:function(e){e.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Electron\'s blog","authorsListPath":"/blog/authors"}')}}]);

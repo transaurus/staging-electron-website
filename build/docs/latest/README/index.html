@@ -1,0 +1,180 @@
+<!doctype html><html lang=en dir=ltr class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-latest/README" data-has-hydrated=false><head><meta charset=UTF-8><meta name=generator content="Docusaurus v3.9.2"><title data-rh=true>Official Guides | Electron</title><meta data-rh=true name=viewport content="width=device-width, initial-scale=1.0"/><meta data-rh=true name=twitter:card content=summary_large_image /><meta data-rh=true property=og:url content=https://electronjs.org/docs/latest/README /><meta data-rh=true property=og:locale content=en /><meta data-rh=true property=og:locale:alternate content=de /><meta data-rh=true property=og:locale:alternate content=es /><meta data-rh=true property=og:locale:alternate content=fr /><meta data-rh=true property=og:locale:alternate content=ja /><meta data-rh=true property=og:locale:alternate content=pt /><meta data-rh=true property=og:locale:alternate content=ru /><meta data-rh=true property=og:locale:alternate content=zh /><meta data-rh=true name=docusaurus_locale content=en /><meta data-rh=true name=docsearch:language content=en /><meta data-rh=true name=docusaurus_version content=current /><meta data-rh=true name=docusaurus_tag content=docs-default-current /><meta data-rh=true name=docsearch:version content=current /><meta data-rh=true name=docsearch:docusaurus_tag content=docs-default-current /><meta data-rh=true property=og:title content="Official Guides | Electron"/><meta data-rh=true name=description content='Please make sure that you use the documents that match your Electron version. The version number should be a part of the page URL. If it&apos;s not, you are probably using the documentation of a development branch which may contain API changes that are not compatible with your Electron version. To view older versions of the documentation, you can browse by tag on GitHub by opening the "Switch branches/tags" dropdown and selecting the tag that matches your version.'/><meta data-rh=true property=og:description content='Please make sure that you use the documents that match your Electron version. The version number should be a part of the page URL. If it&apos;s not, you are probably using the documentation of a development branch which may contain API changes that are not compatible with your Electron version. To view older versions of the documentation, you can browse by tag on GitHub by opening the "Switch branches/tags" dropdown and selecting the tag that matches your version.'/><link data-rh=true rel=icon href=/assets/img/favicon.ico /><link data-rh=true rel=canonical href=https://electronjs.org/docs/latest/README /><link data-rh=true rel=alternate href=https://electronjs.org/docs/latest/README hreflang=en /><link data-rh=true rel=alternate href=https://electronjs.org/de/docs/latest/README hreflang=de /><link data-rh=true rel=alternate href=https://electronjs.org/es/docs/latest/README hreflang=es /><link data-rh=true rel=alternate href=https://electronjs.org/fr/docs/latest/README hreflang=fr /><link data-rh=true rel=alternate href=https://electronjs.org/ja/docs/latest/README hreflang=ja /><link data-rh=true rel=alternate href=https://electronjs.org/pt/docs/latest/README hreflang=pt /><link data-rh=true rel=alternate href=https://electronjs.org/ru/docs/latest/README hreflang=ru /><link data-rh=true rel=alternate href=https://electronjs.org/zh/docs/latest/README hreflang=zh /><link data-rh=true rel=alternate href=https://electronjs.org/docs/latest/README hreflang=x-default /><link data-rh=true rel=preconnect href=https://MG3SRMK3K0-dsn.algolia.net crossorigin=anonymous /><link rel=alternate type=application/rss+xml href=/blog/rss.xml title="Electron RSS Feed"><link rel=alternate type=application/atom+xml href=/blog/atom.xml title="Electron Atom Feed"><link rel=preconnect href=https://www.google-analytics.com><link rel=preconnect href=https://www.googletagmanager.com><script async src="https://www.googletagmanager.com/gtag/js?id=UA-160365006-1"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-160365006-1",{anonymize_ip:!0})</script><link rel=search type=application/opensearchdescription+xml title=Electron href=/opensearch.xml><meta name=docs-sha content=44bc2c8cef90c347c07060d6c9080bbe0f351dfb><link rel=stylesheet href=/assets/css/styles.a33cd0b0.css /><script src=/assets/js/runtime~main.4c5e31c5.js defer></script><script src=/assets/js/main.ad2d0859.js defer></script></head><body class=navigation-with-keyboard><svg style="display: none;"><defs>
+<symbol id=theme-svg-external-link viewBox="0 0 24 24"><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")),document.documentElement.setAttribute("data-theme-choice",t||"system")}(),function(){try{for(var[t,e]of new URLSearchParams(window.location.search).entries())if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id=__docusaurus><div role=region aria-label="Skip to main content"><a class=skipToContent_fXgn href=#__docusaurus_skipToContent_fallback>Skip to main content</a></div><nav aria-label=Main class="theme-layout-navbar navbar navbar--fixed-top navbar--dark"><div class=navbar__inner><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded=false class="navbar__toggle clean-btn" type=button><svg width=30 height=30 viewBox="0 0 30 30" aria-hidden=true><path stroke=currentColor stroke-linecap=round stroke-miterlimit=10 stroke-width=2 d="M4 7h22M4 15h22M4 23h22"/></svg></button><a class=navbar__brand href=/><div class=navbar__logo><img src=/assets/img/logo.svg alt="Electron homepage" class="themedComponent_mlkZ themedComponent--light_NVdE"/><img src=/assets/img/logo.svg alt="Electron homepage" class="themedComponent_mlkZ themedComponent--dark_xIcU"/></div><b class="navbar__title text--truncate">Electron</b></a><a class="navbar__item navbar__link" href=/docs/latest/>Docs</a><a class="navbar__item navbar__link" href=/docs/latest/api/app>API</a><a class="navbar__item navbar__link" href=/blog>Blog</a><div class="navbar__item dropdown dropdown--hoverable"><a href=# aria-haspopup=true aria-expanded=false role=button class=navbar__link>Tools</a><ul class=dropdown__menu><li><a href=https://electronforge.io target=_blank rel="noopener noreferrer" class=dropdown__link>Electron Forge</a><li><a class=dropdown__link href=/fiddle>Electron Fiddle</a></ul></div><div class="navbar__item dropdown dropdown--hoverable"><a href=# aria-haspopup=true aria-expanded=false role=button class=navbar__link>Community</a><ul class=dropdown__menu><li><a class=dropdown__link href=/governance>Governance</a><li><a class=dropdown__link href=/apps>Showcase</a><li><a class=dropdown__link href=/community>Resources</a></ul></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href=https://releases.electronjs.org target=_blank rel="noopener noreferrer" class="navbar__item navbar__link">Releases<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><div class="navbar__item dropdown dropdown--hoverable dropdown--right"><a href=# aria-haspopup=true aria-expanded=false role=button class=navbar__link><svg viewBox="0 0 24 24" width=20 height=20 aria-hidden=true class=iconLanguage_nlXk><path fill=currentColor d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/></svg>English</a><ul class=dropdown__menu><li><a href=/docs/latest/README target=_self rel="noopener noreferrer" class="dropdown__link dropdown__link--active" lang=en>English</a><li><a href=/de/docs/latest/README target=_self rel="noopener noreferrer" class=dropdown__link lang=de>Deutsch</a><li><a href=/es/docs/latest/README target=_self rel="noopener noreferrer" class=dropdown__link lang=es>Español</a><li><a href=/fr/docs/latest/README target=_self rel="noopener noreferrer" class=dropdown__link lang=fr>Français</a><li><a href=/ja/docs/latest/README target=_self rel="noopener noreferrer" class=dropdown__link lang=ja>日本語</a><li><a href=/pt/docs/latest/README target=_self rel="noopener noreferrer" class=dropdown__link lang=pt>Português</a><li><a href=/ru/docs/latest/README target=_self rel="noopener noreferrer" class=dropdown__link lang=ru>Русский</a><li><a href=/zh/docs/latest/README target=_self rel="noopener noreferrer" class=dropdown__link lang=zh>中文</a></ul></div><a href=https://github.com/electron/electron target=_blank rel="noopener noreferrer" class="navbar__item navbar__link header-github-link" aria-label="GitHub repository"></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS darkNavbarColorModeToggle_X3D1" type=button disabled title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill=currentColor d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill=currentColor d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg><svg viewBox="0 0 24 24" width=24 height=24 aria-hidden=true class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill=currentColor d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"/></svg></button></div><div class=navbarSearchContainer_Bca1><button type=button class="DocSearch DocSearch-Button" aria-label="Search (Meta+k)" aria-keyshortcuts=Meta+k><span class=DocSearch-Button-Container><svg width=20 height=20 class=DocSearch-Search-Icon viewBox="0 0 24 24" aria-hidden=true><circle cx=11 cy=11 r=8 stroke=currentColor fill=none stroke-width=1.4 /><path d="m21 21-4.3-4.3" stroke=currentColor fill=none stroke-linecap=round stroke-linejoin=round /></svg><span class=DocSearch-Button-Placeholder>Search</span></span><span class=DocSearch-Button-Keys></span></button></div></div></div><div role=presentation class=navbar-sidebar__backdrop></div></nav><div id=__docusaurus_skipToContent_fallback class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class=docsWrapper_hBAB><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type=button></button><div class=docRoot_UBD9><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class=row><div class="col docItemCol_VOVn"><div class=docItemContainer_Djhp><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type=button class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Official Guides</h1></header>
+<p>Please make sure that you use the documents that match your Electron version.
+The version number should be a part of the page URL. If it's not, you are
+probably using the documentation of a development branch which may contain API
+changes that are not compatible with your Electron version. To view older
+versions of the documentation, you can
+<a href=https://github.com/electron/electron/tree/v1.4.0 target=_blank rel="noopener noreferrer" class="">browse by tag</a>
+on GitHub by opening the "Switch branches/tags" dropdown and selecting the tag
+that matches your version.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=faq>FAQ<a href=#faq class=hash-link aria-label="Direct link to FAQ" title="Direct link to FAQ" translate=no>​</a></h2>
+<p>There are questions that are asked quite often. Check this out before creating
+an issue:</p>
+<ul>
+<li class=""><a class="" href=/docs/latest/faq>Electron FAQ</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=guides-and-tutorials>Guides and Tutorials<a href=#guides-and-tutorials class=hash-link aria-label="Direct link to Guides and Tutorials" title="Direct link to Guides and Tutorials" translate=no>​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=getting-started>Getting started<a href=#getting-started class=hash-link aria-label="Direct link to Getting started" title="Direct link to Getting started" translate=no>​</a></h3>
+<ul>
+<li class=""><a class="" href=/docs/latest/>Introduction</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/process-model>Process Model</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=learning-the-basics>Learning the basics<a href=#learning-the-basics class=hash-link aria-label="Direct link to Learning the basics" title="Direct link to Learning the basics" translate=no>​</a></h3>
+<ul>
+<li class="">Adding Features to Your App<!-- -->
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/notifications>Notifications</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/recent-documents>Recent Documents</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/progress-bar>Application Progress</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/macos-dock>Custom Dock Menu</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/windows-taskbar>Custom Windows Taskbar</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/linux-desktop-actions>Custom Linux Desktop Actions</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/keyboard-shortcuts>Keyboard Shortcuts</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/online-offline-events>Offline/Online Detection</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/represented-file>Represented File for macOS BrowserWindows</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/native-file-drag-drop>Native File Drag & Drop</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/navigation-history>Navigation History</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/offscreen-rendering>Offscreen Rendering</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/dark-mode>Dark Mode</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/web-embeds>Web embeds in Electron</a></li>
+</ul>
+</li>
+<li class=""><a class="" href=/docs/latest/tutorial/boilerplates-and-clis>Boilerplates and CLIs</a>
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/boilerplates-and-clis#boilerplate-vs-cli>Boilerplate vs CLI</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/boilerplates-and-clis#electron-forge>Electron Forge</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/boilerplates-and-clis#electron-builder>electron-builder</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/boilerplates-and-clis#electron-react-boilerplate>electron-react-boilerplate</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/boilerplates-and-clis#other-tools-and-boilerplates>Other Tools and Boilerplates</a></li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=advanced-steps>Advanced steps<a href=#advanced-steps class=hash-link aria-label="Direct link to Advanced steps" title="Direct link to Advanced steps" translate=no>​</a></h3>
+<ul>
+<li class="">Application Architecture<!-- -->
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/using-native-node-modules>Using Native Node.js Modules</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/performance>Performance Strategies</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/security>Security Strategies</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/sandbox>Process Sandboxing</a></li>
+</ul>
+</li>
+<li class=""><a class="" href=/docs/latest/tutorial/accessibility>Accessibility</a>
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/accessibility#manually-enabling-accessibility-features>Manually Enabling Accessibility Features</a></li>
+</ul>
+</li>
+<li class=""><a class="" href=/docs/latest/tutorial/application-debugging>Testing and Debugging</a>
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/debugging-main-process>Debugging the Main Process</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/debugging-vscode>Debugging with Visual Studio Code</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/testing-on-headless-ci>Testing on Headless CI Systems (Travis, Jenkins)</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/devtools-extension>DevTools Extension</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/automated-testing>Automated Testing</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/repl>REPL</a></li>
+</ul>
+</li>
+<li class=""><a class="" href=/docs/latest/tutorial/application-distribution>Distribution</a>
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/code-signing>Code Signing</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/mac-app-store-submission-guide>Mac App Store</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/windows-store-guide>Windows Store</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/snapcraft>Snapcraft</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/asar-archives>ASAR Archives</a></li>
+</ul>
+</li>
+<li class=""><a class="" href=/docs/latest/tutorial/updates>Updates</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/support>Getting Support</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=detailed-tutorials>Detailed Tutorials<a href=#detailed-tutorials class=hash-link aria-label="Direct link to Detailed Tutorials" title="Direct link to Detailed Tutorials" translate=no>​</a></h2>
+<p>These individual tutorials expand on topics discussed in the guide above.</p>
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/installation>Installing Electron</a>
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/installation#proxies>Proxies</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/installation#custom-mirrors-and-caches>Custom Mirrors and Caches</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/installation#troubleshooting>Troubleshooting</a></li>
+</ul>
+</li>
+<li class="">Electron Releases & Developer Feedback<!-- -->
+<ul>
+<li class=""><a class="" href=/docs/latest/tutorial/electron-versioning>Versioning Policy</a></li>
+<li class=""><a class="" href=/docs/latest/tutorial/electron-timelines>Release Timelines</a></li>
+</ul>
+</li>
+</ul>
+<hr/>
+<ul>
+<li class=""><a class="" href=/docs/latest/glossary>Glossary of Terms</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=api-references>API References<a href=#api-references class=hash-link aria-label="Direct link to API References" title="Direct link to API References" translate=no>​</a></h2>
+<ul>
+<li class=""><a class="" href=/docs/latest/api/process>Process Object</a></li>
+<li class=""><a class="" href=/docs/latest/api/command-line-switches>Supported Command Line Switches</a></li>
+<li class=""><a class="" href=/docs/latest/api/environment-variables>Environment Variables</a></li>
+<li class=""><a class="" href=/docs/latest/api/extensions>Chrome Extensions Support</a></li>
+<li class=""><a class="" href=/docs/latest/breaking-changes>Breaking API Changes</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=custom-web-features>Custom Web Features:<a href=#custom-web-features class=hash-link aria-label="Direct link to Custom Web Features:" title="Direct link to Custom Web Features:" translate=no>​</a></h3>
+<ul>
+<li class=""><a class="" href=/docs/latest/api/corner-smoothing-css><code>-electron-corner-smoothing</code> CSS Rule</a></li>
+<li class=""><a class="" href=/docs/latest/api/webview-tag><code>&lt;webview></code> Tag</a></li>
+<li class=""><a class="" href=/docs/latest/api/window-open><code>window.open</code> Function</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=modules-for-the-main-process>Modules for the Main Process:<a href=#modules-for-the-main-process class=hash-link aria-label="Direct link to Modules for the Main Process:" title="Direct link to Modules for the Main Process:" translate=no>​</a></h3>
+<ul>
+<li class=""><a class="" href=/docs/latest/api/app>app</a></li>
+<li class=""><a class="" href=/docs/latest/api/auto-updater>autoUpdater</a></li>
+<li class=""><a class="" href=/docs/latest/api/base-window>BaseWindow</a></li>
+<li class=""><a class="" href=/docs/latest/api/browser-window>BrowserWindow</a></li>
+<li class=""><a class="" href=/docs/latest/api/content-tracing>contentTracing</a></li>
+<li class=""><a class="" href=/docs/latest/api/desktop-capturer>desktopCapturer</a></li>
+<li class=""><a class="" href=/docs/latest/api/dialog>dialog</a></li>
+<li class=""><a class="" href=/docs/latest/api/global-shortcut>globalShortcut</a></li>
+<li class=""><a class="" href=/docs/latest/api/in-app-purchase>inAppPurchase</a></li>
+<li class=""><a class="" href=/docs/latest/api/image-view>ImageView</a></li>
+<li class=""><a class="" href=/docs/latest/api/ipc-main>ipcMain</a></li>
+<li class=""><a class="" href=/docs/latest/api/menu>Menu</a></li>
+<li class=""><a class="" href=/docs/latest/api/menu-item>MenuItem</a></li>
+<li class=""><a class="" href=/docs/latest/api/message-channel-main>MessageChannelMain</a></li>
+<li class=""><a class="" href=/docs/latest/api/message-port-main>MessagePortMain</a></li>
+<li class=""><a class="" href=/docs/latest/api/native-theme>nativeTheme</a></li>
+<li class=""><a class="" href=/docs/latest/api/net>net</a></li>
+<li class=""><a class="" href=/docs/latest/api/net-log>netLog</a></li>
+<li class=""><a class="" href=/docs/latest/api/notification>Notification</a></li>
+<li class=""><a class="" href=/docs/latest/api/power-monitor>powerMonitor</a></li>
+<li class=""><a class="" href=/docs/latest/api/power-save-blocker>powerSaveBlocker</a></li>
+<li class=""><a class="" href=/docs/latest/api/protocol>protocol</a></li>
+<li class=""><a class="" href=/docs/latest/api/push-notifications>pushNotifications</a></li>
+<li class=""><a class="" href=/docs/latest/api/safe-storage>safeStorage</a></li>
+<li class=""><a class="" href=/docs/latest/api/screen>screen</a></li>
+<li class=""><a class="" href=/docs/latest/api/service-worker-main>ServiceWorkerMain</a></li>
+<li class=""><a class="" href=/docs/latest/api/session>session</a></li>
+<li class=""><a class="" href=/docs/latest/api/share-menu>ShareMenu</a></li>
+<li class=""><a class="" href=/docs/latest/api/system-preferences>systemPreferences</a></li>
+<li class=""><a class="" href=/docs/latest/api/touch-bar>TouchBar</a></li>
+<li class=""><a class="" href=/docs/latest/api/tray>Tray</a></li>
+<li class=""><a class="" href=/docs/latest/api/utility-process>utilityProcess</a></li>
+<li class=""><a class="" href=/docs/latest/api/view>View</a></li>
+<li class=""><a class="" href=/docs/latest/api/web-contents>webContents</a></li>
+<li class=""><a class="" href=/docs/latest/api/web-frame-main>webFrameMain</a></li>
+<li class=""><a class="" href=/docs/latest/api/web-contents-view>WebContentsView</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=modules-for-the-renderer-process-web-page>Modules for the Renderer Process (Web Page):<a href=#modules-for-the-renderer-process-web-page class=hash-link aria-label="Direct link to Modules for the Renderer Process (Web Page):" title="Direct link to Modules for the Renderer Process (Web Page):" translate=no>​</a></h3>
+<ul>
+<li class=""><a class="" href=/docs/latest/api/context-bridge>contextBridge</a></li>
+<li class=""><a class="" href=/docs/latest/api/ipc-renderer>ipcRenderer</a></li>
+<li class=""><a class="" href=/docs/latest/api/web-frame>webFrame</a></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id=modules-for-both-processes>Modules for Both Processes:<a href=#modules-for-both-processes class=hash-link aria-label="Direct link to Modules for Both Processes:" title="Direct link to Modules for Both Processes:" translate=no>​</a></h3>
+<ul>
+<li class=""><a class="" href=/docs/latest/api/clipboard>clipboard</a> (non-sandboxed renderers only)</li>
+<li class=""><a class="" href=/docs/latest/api/crash-reporter>crashReporter</a></li>
+<li class=""><a class="" href=/docs/latest/api/native-image>nativeImage</a></li>
+<li class=""><a class="" href=/docs/latest/api/shell>shell</a> (non-sandboxed renderers only)</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id=development>Development<a href=#development class=hash-link aria-label="Direct link to Development" title="Direct link to Development" translate=no>​</a></h2>
+<p>See <a class="" href=/docs/latest/development/README>development/README.md</a></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href=https://github.com/electron/electron/edit/main/docs/README.md target=_blank rel="noopener noreferrer" class=theme-edit-this-page><svg fill=currentColor height=20 width=20 viewBox="0 0 40 40" class=iconEdit_Z9Sw aria-hidden=true><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"/></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href=#faq class="table-of-contents__link toc-highlight">FAQ</a><li><a href=#guides-and-tutorials class="table-of-contents__link toc-highlight">Guides and Tutorials</a><ul><li><a href=#getting-started class="table-of-contents__link toc-highlight">Getting started</a><li><a href=#learning-the-basics class="table-of-contents__link toc-highlight">Learning the basics</a><li><a href=#advanced-steps class="table-of-contents__link toc-highlight">Advanced steps</a></ul><li><a href=#detailed-tutorials class="table-of-contents__link toc-highlight">Detailed Tutorials</a><li><a href=#api-references class="table-of-contents__link toc-highlight">API References</a><ul><li><a href=#custom-web-features class="table-of-contents__link toc-highlight">Custom Web Features:</a><li><a href=#modules-for-the-main-process class="table-of-contents__link toc-highlight">Modules for the Main Process:</a><li><a href=#modules-for-the-renderer-process-web-page class="table-of-contents__link toc-highlight">Modules for the Renderer Process (Web Page):</a><li><a href=#modules-for-both-processes class="table-of-contents__link toc-highlight">Modules for Both Processes:</a></ul><li><a href=#development class="table-of-contents__link toc-highlight">Development</a></ul></div></div></div></div></main></div></div></div><footer class=footer><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class=footer__title>Docs</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/docs/latest/>Getting Started</a><li class=footer__item><a class=footer__link-item href=/docs/latest/api/app>API Reference</a></ul></div><div class="theme-layout-footer-column col footer__col"><div class=footer__title>Checklists</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/docs/latest/tutorial/performance>Performance</a><li class=footer__item><a class=footer__link-item href=/docs/latest/tutorial/security>Security</a></ul></div><div class="theme-layout-footer-column col footer__col"><div class=footer__title>Tools</div><ul class="footer__items clean-list"><li class=footer__item><a href=https://electronforge.io target=_blank rel="noopener noreferrer" class=footer__link-item>Electron Forge</a><li class=footer__item><a class=footer__link-item href=/fiddle>Electron Fiddle</a></ul></div><div class="theme-layout-footer-column col footer__col"><div class=footer__title>Community</div><ul class="footer__items clean-list"><li class=footer__item><a class=footer__link-item href=/governance>Governance</a><li class=footer__item><a class=footer__link-item href=/community>Resources</a><li class=footer__item><a href=https://discordapp.com/invite/APGC3k5yaH target=_blank rel="noopener noreferrer" class=footer__link-item>Discord<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><li class=footer__item><a href=https://bsky.app/profile/electronjs.org target=_blank rel="noopener noreferrer" class=footer__link-item>Bluesky<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><li class=footer__item><a href=https://x.com/electronjs target=_blank rel="noopener noreferrer" class=footer__link-item>X<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><li class=footer__item><a href=https://social.lfx.dev/@electronjs target=_blank rel=me class=footer__link-item>Mastodon<svg width=13.5 height=13.5 aria-hidden=true viewBox="0 0 24 24" style="margin-left: 0.3rem;"><path fill=currentColor d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></svg></a><li class=footer__item><a href=https://stackoverflow.com/questions/tagged/electron target=_blank rel="noopener noreferrer" class=footer__link-item>Stack Overflow<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a></ul></div><div class="theme-layout-footer-column col footer__col"><div class=footer__title>More</div><ul class="footer__items clean-list"><li class=footer__item><a href=https://github.com/electron/electron target=_blank rel="noopener noreferrer" class=footer__link-item>GitHub<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><li class=footer__item><a href=https://opencollective.com/electron target=_blank rel="noopener noreferrer" class=footer__link-item>Open Collective<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a><li class=footer__item><a href=https://p.datadoghq.com/sb/c44e1df0-85d7-11ee-94c9-da7ad0900002-c245f7ef47d0d0c32abecdc0938c2a85 target=_blank rel="noopener noreferrer" class=footer__link-item>Infrastructure Dashboard<svg width=13.5 height=13.5 aria-label="(opens in new tab)" class=iconExternalLink_nPIU><use href=#theme-svg-external-link /></svg></a></ul></div></div><div class=footerSplit_ceoI><div class="footer__bottom text--left"><div class=margin-bottom--sm><a href=https://openjsf.org/ rel="noopener noreferrer" class=footerLogoLink_BH7S><img src=/assets/img/openjsf_logo.svg alt="OpenJS Foundation Logo" class="footer__logo themedComponent_mlkZ themedComponent--light_NVdE"/><img src=/assets/img/openjsf_logo-dark.svg alt="OpenJS Foundation Logo" class="footer__logo themedComponent_mlkZ themedComponent--dark_xIcU"/></a></div><div class=footer__copyright>Copyright <a href=https://openjsf.org>OpenJS Foundation</a> and Electron contributors. All rights reserved. The <a href=https://openjsf.org>OpenJS Foundation</a> has registered trademarks and uses trademarks.  For a list of trademarks of the <a href=https://openjsf.org>OpenJS Foundation</a>, please see our <a href=https://trademark-policy.openjsf.org>Trademark Policy</a> and <a href=https://trademark-list.openjsf.org>Trademark List</a>.  Trademarks and logos not indicated on the <a href=https://trademark-list.openjsf.org>list of OpenJS Foundation trademarks</a> are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.<p><p><a href=https://openjsf.org>The OpenJS Foundation</a> | <a href=https://terms-of-use.openjsf.org>Terms of Use</a> | <a href=https://privacy-policy.openjsf.org>Privacy Policy</a> | <a href=https://bylaws.openjsf.org>Bylaws</a> | <a href=https://code-of-conduct.openjsf.org>Code of Conduct</a> | <a href=https://trademark-policy.openjsf.org>Trademark Policy</a> | <a href=https://trademark-list.openjsf.org>Trademark List</a> | <a href=https://www.linuxfoundation.org/cookies>Cookie Policy</a></div></div><div class="footer__bottom text--right"><div class=margin-bottom--sm>Hosting and infrastructure graciously provided by</div><div class=logoCluster_P_xL><img src=/assets/third-parties/azure.png alt="Azure Logo"/><img src=/assets/third-parties/heroku_dark.png alt="Heroku Logo" class=darkOnly_ojNJ /><img src=/assets/third-parties/heroku_light.png alt="Heroku Logo" class=lightOnly_R5kF /><img src=/assets/third-parties/datadog_dark.png alt="DataDog Logo" class=darkOnly_ojNJ /><img src=/assets/third-parties/datadog_light.png alt="DataDog Logo" class=lightOnly_R5kF /></div></div></div></div></footer></div></body>
