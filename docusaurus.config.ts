@@ -54,7 +54,7 @@ const config: Config = {
   themes: ['@docusaurus/theme-mermaid'],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'de', 'es', 'fr', 'ja', 'pt', 'ru', 'zh'],
+    locales: ["en", "zh-Hans"],
     path: 'i18n',
     // Due to a refactor in Docusaurus 3.9, the inferred localeDropdown baseURL paths
     // get messed up because we build the `en` locale separately from the translated ones.

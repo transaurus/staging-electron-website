@@ -1,0 +1,58 @@
+{
+  "title": {
+    "message": "Electron",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Electron homepage",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.API": {
+    "message": "API",
+    "description": "Navbar item with label API"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Tools": {
+    "message": "Tools",
+    "description": "Navbar item with label Tools"
+  },
+  "item.label.Community": {
+    "message": "Community",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Releases": {
+    "message": "Releases",
+    "description": "Navbar item with label Releases"
+  },
+  "item.label.Electron Forge": {
+    "message": "Electron Forge",
+    "description": "Navbar item with label Electron Forge"
+  },
+  "item.label.Electron Fiddle": {
+    "message": "Electron Fiddle",
+    "description": "Navbar item with label Electron Fiddle"
+  },
+  "item.label.Governance": {
+    "message": "Governance",
+    "description": "Navbar item with label Governance"
+  },
+  "item.label.Showcase": {
+    "message": "Showcase",
+    "description": "Navbar item with label Showcase"
+  },
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
+  },
+  "item.label.Why Electron": {
+    "message": "Why Electron",
+    "description": "Navbar item with label Why Electron"
+  }
+}
