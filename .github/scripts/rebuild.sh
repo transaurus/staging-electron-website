@@ -28,7 +28,8 @@ fi
 yarn pre-build
 
 # --- Build ---
-echo "[INFO] Running docusaurus build..."
-yarn build
+# package.json "build" uses --locale en (English-only). Override to build all locales.
+echo "[INFO] Running docusaurus build (all locales)..."
+npx docusaurus build
 
 echo "[DONE] Build complete."
